@@ -5647,7 +5647,7 @@ var _window = window,
     location = _window.location; // With dynamic assetPrefix it's no longer possible to set assetPrefix at the build time
 // So, this is how we do it in the client side at runtime
 
-__webpack_require__.p = "".concat(assetPrefix, "/_next/webpack/"); //eslint-disable-line
+__webpack_require__.p = "".concat(assetPrefix, "/next/webpack/"); //eslint-disable-line
 // Initialize next/asset with the assetPrefix
 
 asset.setAssetPrefix(assetPrefix); // Initialize next/config with the environment configuration
@@ -6233,7 +6233,7 @@ var _default = function _default() {
           switch (_context.prev = _context.next) {
             case 0:
               _context.prev = 0;
-              url = "".concat(assetPrefix, "/_next/on-demand-entries-ping?page=").concat(_router.default.pathname);
+              url = "".concat(assetPrefix, "/next/on-demand-entries-ping?page=").concat(_router.default.pathname);
               _context.next = 4;
               return (0, _unfetch.default)(url, {
                 credentials: 'omit'
@@ -6522,7 +6522,7 @@ var _window = window,
 
 var _default = function _default() {
   _clientAutoConnectFalseOverlayFalseReloadTrue.default.setOptionsAndConnect({
-    path: "".concat(assetPrefix, "/_next/webpack-hmr")
+    path: "".concat(assetPrefix, "/next/webpack-hmr")
   });
 
   var handlers = {
@@ -7236,7 +7236,7 @@ function () {
       route = this.normalizeRoute(route);
       var scriptRoute = route === '/' ? '/index.js' : "".concat(route, ".js");
       var script = document.createElement('script');
-      var url = "".concat(this.assetPrefix, "/_next/").concat(encodeURIComponent(this.buildId), "/page").concat(scriptRoute);
+      var url = "".concat(this.assetPrefix, "/next/").concat(encodeURIComponent(this.buildId), "/page").concat(scriptRoute);
       script.src = url;
 
       script.onerror = function () {
