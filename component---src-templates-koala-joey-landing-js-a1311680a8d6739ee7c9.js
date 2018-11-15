@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{137:function(e,n,t){"use strict";t.r(n),t.d(n,"query",function(){return u});var a=t(0),r=t.n(a),l=t(146);n.default=function(e){var n=e.data.markdownRemark,t=n.frontmatter.title,a=n.html;return r.a.createElement(l.a,null,r.a.createElement("div",null,r.a.createElement("h1",null,"Anything"),r.a.createElement("h2",null,t),r.a.createElement("div",{dangerouslySetInnerHTML:{__html:a}})))};var u="36232406"}}]);
+//# sourceMappingURL=component---src-templates-koala-joey-landing-js-a1311680a8d6739ee7c9.js.map
